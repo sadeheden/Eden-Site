@@ -2,7 +2,6 @@
 @import url('/styles/reset.css');
 @import url('/styles/mobile.css');
 
-
 .grid {
     display: grid;
 }
