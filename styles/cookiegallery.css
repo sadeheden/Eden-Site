@@ -63,8 +63,8 @@
 /* footer with icons */
 .footer {
     grid-area: footer;
-    margin: 10%;
-     width: 110%;
+    padding:5%;
+     width: 100%;
      background-image: url("/images/sebastian-garcia-o8SzLhKUEBU-unsplash.jpg");
      color: white;
     text-align: center;
@@ -72,14 +72,13 @@
 }
 
 .body{
-  padding: 20%;
     text-align: right;
     background-color: rgb(243, 237, 237);
     scrollbar-color: dark;
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
-    display: block    
+    display: block
 }
 /* icons of footer */
 .fa {
@@ -159,11 +158,11 @@
     -ms-flex: 25%;
     flex:25%;
     max-width: 25%;
-    padding: 40px;
+    padding: 0 40px;
     position: relative;
   }
   .column img{
-    margin: 50px;
+    margin-top: 50px;
     vertical-align: middle;
     width: 100%;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -209,5 +208,4 @@
     transition: .5s ease;
     backface-visibility:hidden;
   }
-
   
