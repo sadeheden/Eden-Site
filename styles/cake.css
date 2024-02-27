@@ -1,0 +1,212 @@
+@import url('/styles/vars.css');
+@import url('/styles/reset.css');
+@import url('/styles/mobile.css');
+
+
+.grid {
+    display: grid;
+}
+
+.body {
+    grid-template-areas: 
+        'header header header header'
+        'content content content content'
+        'content content content content'
+        'footer footer footer footer';
+}
+
+#header {
+    grid-area: header;
+    grid-template-columns: 14fr 3fr; 
+    background-color:rgb(243, 237, 237); 
+
+    
+}
+#header #logo{
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+#header nav ul{
+    list-style:none;
+    padding: 0;
+    font-weight: bold;
+    grid-template-columns: repeat(5, 14fr);
+    align-content:first baseline;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  
+    
+} 
+  
+#header nav ul li{
+    text-align:right;
+      float: left;
+     
+   
+}
+#header nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #header nav ul li a:hover {
+     background-color: rgb(220, 193, 193);;
+  }
+
+/* footer with icons */
+.footer {
+    grid-area: footer;
+    padding:5%;
+     width: 100%;
+     background-image: url("/images/sebastian-garcia-o8SzLhKUEBU-unsplash.jpg");
+     color: white;
+    text-align: center;
+   
+}
+
+.body{
+    text-align: right;
+    background-color: rgb(243, 237, 237);
+    scrollbar-color: dark;
+    overflow: auto;  
+    word-wrap: break-word;
+    overflow: auto;
+    display: block
+}
+/* icons of footer */
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding-left: 40px;
+  }
+  
+  .fa:hover {
+      opacity: 0.10;
+  }
+
+
+  /* menu dropdown for other options */
+  .dropbtn {
+    font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding-right: 90px;
+    align-content:center ;
+    list-style-type: none;
+    overflow: hidden;
+    background-color:rgb(243, 237, 237); 
+ 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position:fixed;
+    background-color:rgb(243, 237, 237);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color:rgb(243, 237, 237) ;
+    text-decoration: none;
+    
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(220, 193, 193); ;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 285px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:rgb(243, 237, 237); ;
+  }
+  /* arrow in the menu */
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+  
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column{
+    -ms-flex: 25%;
+    flex:25%;
+    max-width: 25%;
+    padding: 0 40px;
+    position: relative;
+  }
+  .column img{
+    margin-top: 50px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   
+  }  
+  .column-hover{
+    position: relative;
+    width: 100%;
+    
+  }
+  .column-hover:hover .text-middle {
+    opacity: 0.8;
+   
+  }
+  .column-hover:hover .img{
+    opacity: 0.3;
+    background-color:rgba(0, 0, 0, 0.75) ;
+    overflow: hidden;
+   
+  }
+  .text {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 22px;
+    padding: 20px 32px;
+  }
+  .text-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 102%;;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 341px;
+    height: 151px;
+  }
+   .img{ 
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility:hidden;
+  }
+  
