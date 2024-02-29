@@ -1,7 +1,7 @@
 #hero{
     size: 90px;
     height: 85vh;
-    background-image: url("/images/dunats.png");
+    background-image: url("//images/hero3.png");
     background-repeat: no-repeat;
     background-position: 90% 20%;  
     background-size: cover;

@@ -65,15 +65,15 @@
 /* menu the arrow +going down */
   .dropbtn {
     font-weight: bold;
-    padding: 10px;
-    font-size: 15px;
+    padding: 16px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
-    padding-right: 100px;
+    padding-right: 90px;
     align-content:center ;
     list-style-type: none;
     overflow: hidden;
-    background-color:rgb(243, 237, 237);  
+    background-color:rgb(243, 237, 237); 
   }
   
   .dropdown-content {
@@ -114,7 +114,7 @@
   .footer {
     grid-area: footer;
      height: 5%;
-     background-image: url("/images/sebastian-garcia-o8SzLhKUEBU-unsplash.jpg");
+     background-color: rgb(243, 237, 237);
      margin: 1px;
      height: 250px;;
     text-align: center;
