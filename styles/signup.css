@@ -158,7 +158,7 @@
 .container {
   position: relative;
   border-radius: 5px;
-background-color: #ffeeee;
+  background-color: rgb(243, 237, 237);
  height: 600px;
   padding-right: 200px;
   padding-left: 200px; 
