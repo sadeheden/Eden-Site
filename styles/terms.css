@@ -19,7 +19,7 @@
     grid-area: header;
     grid-template-columns: 14fr 3fr; 
     background-color:rgb(243, 237, 237); 
-
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 #header #logo{
@@ -74,13 +74,12 @@
 
 .body{
     text-align: right;
-    background-color: rgb(243, 237, 237);
     scrollbar-color: dark;
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
-    display: block
-}
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;}
 /* icons of footer */
 .fa {
     padding: 20px;
@@ -101,7 +100,7 @@
   .dropbtn {
     font-weight: bold;
     padding: 16px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     cursor: pointer;
     padding-right: 90px;

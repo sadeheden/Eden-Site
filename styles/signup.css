@@ -63,8 +63,8 @@
 
 #hero {
     grid-area: hero;
-    height: 150px;
-    background-image: url("/images/cupcake333.jpg");
+    height: 200px;
+    background-image: url("/images/cupcake333\ 2.jpg");
 
    
 }
