@@ -64,7 +64,7 @@
 
 #hero {
     grid-area: hero;
-    height: 400px;
+    height: 370px;
     background-image: url("/images/bake.jpg");
     
 
@@ -98,7 +98,7 @@
     width: 220px;
     height: 300px;
     transition: width 1s, height 1s;
-    margin-left: 70px;
+    margin-left: 80px;
     border-radius: 20px;
     
 }
@@ -191,7 +191,7 @@
 
 /* border round */
   img {
-    border-radius: 10%;
+    border-radius: 2%;
   }
 
   .container {
@@ -207,7 +207,7 @@
   .container .content {
     position:absolute;
     bottom: 0;
-    color: #ffffff;
+    color: #e2d5d5;
     width: 100%;
     padding: 2px;
     background: rgb(154, 154, 154); 
