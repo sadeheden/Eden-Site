@@ -75,7 +75,8 @@
 }
 
 #header nav ul li a:hover {
-  background-color: rgb(220, 193, 193);
+  background-color:rgb(243, 237, 237); 
+
 }
 /* menu the arrow +going down */
   .dropbtn {
@@ -105,7 +106,8 @@
     
   }
   
-  .dropdown-content a:hover {background-color: rgb(220, 193, 193);}
+  .dropdown-content a:hover {background-color:rgb(243, 237, 237); 
+    ;}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -167,7 +169,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #edb8c0;
+  background-color:rgb(243, 237, 237); 
+;
   color: white;
   padding: 12px 20px;
   border: none;
