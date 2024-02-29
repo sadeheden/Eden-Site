@@ -75,7 +75,7 @@
 }
 
 #header nav ul li a:hover {
-  background-color:rgb(243, 237, 237); 
+  background-color: rgb(220, 193, 193);; 
 
 }
 /* menu the arrow +going down */
@@ -153,7 +153,7 @@
 .grid {
     display: grid;
 }
-body {font-family: Arial, Helvetica, sans-serif; background-color: #ffe7ea;}
+body {font-family: Arial, Helvetica, sans-serif;   background-color: rgb(243, 237, 237);}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {

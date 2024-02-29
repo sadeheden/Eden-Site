@@ -211,4 +211,6 @@
     background: rgb(154, 154, 154); 
     background: rgb(75, 74, 74, 0.7); 
   }
-  
+  .body{
+    background-color: rgb(243, 237, 237);
+  }
