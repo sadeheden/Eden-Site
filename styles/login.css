@@ -133,7 +133,16 @@
   .footer {
     grid-area: footer;
      height: 5%;
-     background-image: url("/images/sebastian-garcia-o8SzLhKUEBU-unsplash.jpg");
+     font-weight: bold;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     padding-right: 90px;
+     align-content:center ;
+     list-style-type: none;
+     overflow: hidden;
+     background-color:rgb(243, 237, 237); 
      margin: 1px;
      height: 200px;;
     text-align: center;
