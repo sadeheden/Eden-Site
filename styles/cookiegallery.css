@@ -80,7 +80,7 @@
 }
 
 .body{
-    text-align: right;
+    text-align: top;
     background-color: rgb(243, 237, 237);
     scrollbar-color: dark;
     overflow: auto;  
@@ -156,7 +156,7 @@
     -webkit-transform: rotate(45deg);
   }
   .hero{
-    font-size: 200PX;
+    font-size: 100PX;
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
     text-align: center;
@@ -210,20 +210,20 @@
   .text {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    font-size: 22px;
-    padding: 20px 32px;
+    font-size: 12px;
+  
   }
   .text-middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 102%;;
+    top: 90%;;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     width: 341px;
-    height: 151px;
+    height: 100px;
   }
    .img{ 
     opacity: 1;
