@@ -148,7 +148,7 @@
     -webkit-transform: rotate(45deg);
   }
   .hero{
-    font-size: 210px;
+    font-size: 150PX;
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
     text-align: center;
@@ -202,8 +202,8 @@
   .text {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    font-size: 22px;
-    padding: 20px 32px;
+    font-size: 100%;
+  
   }
   .text-middle {
     transition: .5s ease;

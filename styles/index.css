@@ -24,10 +24,10 @@
     
 }
 #header #logo{
-    width: 200px;
+    width: 80%;
     max-width: 100%;
-    margin-top: 10px;
-    margin-right: 20px;
+    margin-top: 3%;
+    margin-right: 10%;
     
 }
 #header nav ul{
@@ -89,15 +89,15 @@
 }
 /* photos down */
 .grid-item1 {
-    padding: 12px;
-    font-size: 15px;
+    padding: 5%;
+    font-size: 160%;
     text-align: center;
     background-color: rgb(243, 237, 237);
-    width: 220px;
-    height: 300px;
+    width:80%;
+    height: 100%;
     transition: width 1s, height 1s;
-    margin-left: 70px;
-    border-radius: 20px;
+    margin-left: 5%;
+    border-radius: 10%;
     
 }
 
@@ -138,19 +138,19 @@
   }
   /* reviews */
   .grid-item1:hover {
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 100%;
   }
   #grid-item1 {transition-timing-function: ease-in;}
 
   /* menu dropdown for other options */
   .dropbtn {
     font-weight: bold;
-    padding: 16px;
-    font-size: 16px;
+    padding: 7%;
+    font-size: 100%;
     border: none;
     cursor: pointer;
-    padding-right: 90px;
+    padding-right: 40%;
     align-content:center ;
     list-style-type: none;
     overflow: hidden;
@@ -176,7 +176,7 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
-    width: 280px;
+    width: 20%;
   }
   
   .dropdown:hover .dropbtn {
@@ -198,12 +198,12 @@
 
 /* border round */
   img {
-    border-radius: 10%;
+    border-radius: 3%;
   }
 
   .container {
     position: relative;
-    font-size: 18px;
+    font-size: 150%;
     max-width: 120%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -216,7 +216,7 @@
     bottom: 0;
     color: #ffffff;
     width: 100%;
-    padding: 2px;
+    padding: 2%;
     background: rgb(154, 154, 154); 
     background: rgb(75, 74, 74, 0.7); 
   }
