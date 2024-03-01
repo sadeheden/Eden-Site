@@ -88,7 +88,8 @@
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
-    display: block
+    display: block;
+    font-size: 60%;
 }
 /* icons of footer */
 .fa {

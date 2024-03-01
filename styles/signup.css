@@ -71,21 +71,12 @@
 
 /* footer with icons */
 .footer {
-    grid-area: footer;
-    padding:5%;
-     width: 100%;
-     font-weight: bold;
-     padding: 16px;
-     font-size: 16px;
-     border: none;
-     cursor: pointer;
-     padding-right: 90px;
-     align-content:center ;
-     list-style-type: none;
-     overflow: hidden;
-     background-color:rgb(243, 237, 237); 
-     color: white;
-    text-align: center;
+  grid-area: footer;
+  padding:5%;
+   width: 100%;
+   background-color: rgb(243, 237, 237);
+   color: white;
+  text-align: center;
    
 
     
@@ -241,7 +232,7 @@ input[type=submit]:hover {
   width: 50%;
   margin: auto;
   padding: 0 50px;
-  padding-top: 40px;
+  padding-top: 5%;
  text-align: center;
  font-family: Arial, Helvetica, sans-serif;
 }
@@ -253,18 +244,6 @@ input[type=submit]:hover {
   clear: both;
 }
 
-/* vertical line */
-.vl {
-  position:absolute;
-  left: 50%;
-  transform: translate(-50%);
-  border: 1px solid #e0b7b7;
-  padding-top: 30%;
-  margin-top: 10px;
-
-}
-
-
 /* hide some text on medium and large screens */
 .hide-md-lg {
   display: none;
@@ -275,9 +254,9 @@ input[type=submit]:hover {
   text-align: center;
   background-color: #746c6c;
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 40px;
+  padding-bottom: 5%;
   
 }
 
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 650px){}
+@media screen and (max-width: 650%){}

@@ -27,17 +27,17 @@
 .grid-container{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 30px;
+  padding: 10%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 8px;
+  font-size: 60%;
 
   
 }
 #header #logo{
-  width: 200px;
+  width: 80%;
   max-width: 100%;
-  margin-top: 10px;
-  margin-right: 20px;
+  margin-top: 3%;
+  margin-right: 10%;
   
 }
 #header nav ul{
@@ -68,12 +68,7 @@
   font-family: Arial, Helvetica, sans-serif;
 
 }
-#hero {
-    grid-area: hero;
-    height: 300px;
-    background-image: url(/images/sebastian-garcia-o8SzLhKUEBU-unsplash);
-  
-}
+
 
 #header nav ul li a:hover {
   background-color: rgb(220, 193, 193);; 
@@ -82,15 +77,15 @@
 /* menu the arrow +going down */
   .dropbtn {
     font-weight: bold;
-    padding: 16px;
-    font-size: 16px;
+    padding: 7%;
+    font-size: 100%;
     border: none;
     cursor: pointer;
-    padding-right: 90px;
+    padding-right: 40%;
     align-content:center ;
     list-style-type: none;
     overflow: hidden;
-    background-color:rgb(243, 237, 237);   
+    background-color:rgb(243, 237, 237);  
   }
 
   
@@ -112,7 +107,7 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
-    width: 280px;
+    width: 20%;
   }
   
   .dropdown:hover .dropbtn {
@@ -193,12 +188,12 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
-  height: 520px;
-  width: 620px;
+  border-radius: 1%;
+  height: 40%;
+  width: 45%;
   margin: 10px 30% 10% 10px;
   background-color: rgb(255, 254, 254);
-  padding: 10px;
+  padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
 text-align: center;}
 
