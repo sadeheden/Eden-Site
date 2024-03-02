@@ -62,14 +62,6 @@
      background-color: rgb(220, 193, 193);;
   }
 
-#hero {
-    grid-area: hero;
-    height: 370px;
-    background-image: url("/images/bake.jpg");
-    
-
-   
-}
 
 .grid-container{
     display: grid;
