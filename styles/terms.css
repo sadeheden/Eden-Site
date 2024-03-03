@@ -32,6 +32,7 @@
 #header nav ul{
     list-style:none;
     padding: 0;
+    font-size: 150%;
     font-weight: bold;
     grid-template-columns: repeat(5, 14fr);
     align-content:first baseline;
@@ -54,7 +55,7 @@
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+
   }
 
   #header nav ul li a:hover {
@@ -83,13 +84,14 @@
 
 .body{
     text-align: right;
+    background-color: rgb(243, 237, 237);
     scrollbar-color: dark;
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
-  font-size: 60%;}
+    font-size: 80%;
+}
 /* icons of footer */
 .fa {
     padding: 20px;
@@ -109,11 +111,11 @@
   /* menu dropdown for other options */
   .dropbtn {
     font-weight: bold;
-    padding: 16px;
-    font-size: 14px;
+    padding: 7%;
+    font-size: 100%;
     border: none;
     cursor: pointer;
-    padding-right: 90px;
+    padding-right: 40%;
     align-content:center ;
     list-style-type: none;
     overflow: hidden;
@@ -138,7 +140,7 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
-    width: 285px;
+    width: 20%;
   }
   
   .dropdown:hover .dropbtn {
@@ -158,3 +160,7 @@
     -webkit-transform: rotate(45deg);
   }
 
+.body article{padding-right: 10%;
+  background-color:rgb(243, 237, 237);font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20%;}

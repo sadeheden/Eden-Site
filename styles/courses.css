@@ -2,7 +2,6 @@
 @import url('/styles/reset.css');
 @import url('/styles/mobile.css');
 
-
 .grid {
     display: grid;
 }
@@ -62,58 +61,25 @@
      background-color: rgb(220, 193, 193);;
   }
 
-
-.grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 8px;
-    margin-right: 50px;
-
-    
-  }
-  
-.grid-item {
-    padding: 10px;
-    font-size: 30px;
-    height: 400px;
-    text-align: center;
-
-}
-/* photos down */
-.grid-item1 {
-    padding: 12px;
-    font-size: 15px;
-    text-align: center;
-    background-color: rgb(243, 237, 237);
-    width: 220px;
-    height: 300px;
-    transition: width 1s, height 1s;
-    margin-left: 80px;
-    border-radius: 20px;
-    
+#hero {
+    grid-area: hero;
+  font-size: 200%;
+   
 }
 
 /* footer with icons */
 .footer {
-    grid-area: footer;
-    padding:5%;
-     width: 100%;
-     font-weight: bold;
-     padding: 16px;
-     font-size: 16px;
-     border: none;
-     cursor: pointer;
-     padding-right: 90px;
-     align-content:center ;
-     list-style-type: none;
-     overflow: hidden;
-     background-color:rgb(243, 237, 237); 
-    text-align: center;
-    margin: 10px;
+  grid-area: footer;
+  padding:5%;
+   width: 100%;
+   background-color: rgb(243, 237, 237);
+   color: white;
+  text-align: center;
+   
 
     
+}
+.body {  background-color:rgb(243, 237, 237); 
 }
 /* icons of footer */
 .fa {
@@ -162,14 +128,13 @@
     background-color:rgb(243, 237, 237) ;
     text-decoration: none;
     
-    
   }
   
   .dropdown-content a:hover {background-color: rgb(220, 193, 193); ;}
   
   .dropdown:hover .dropdown-content {
     display: block;
-    width: 280px;
+    width: 285px;
   }
   
   .dropdown:hover .dropbtn {
@@ -189,30 +154,3 @@
     -webkit-transform: rotate(45deg);
   }
 
-/* border round */
-  img {
-    border-radius: 2%;
-  }
-
-  .container {
-    position: relative;
-    font-size: 18px;
-    max-width: 120%;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  /*text inside the photos*/
-  .container img {vertical-align: middle;}
-  
-  .container .content {
-    position:absolute;
-    bottom: 0;
-    color: #e2d5d5;
-    width: 100%;
-    padding: 2px;
-    background: rgb(154, 154, 154); 
-    background: rgb(75, 74, 74, 0.7); 
-  }
-  .body{
-    background-color: rgb(243, 237, 237);
-  }
