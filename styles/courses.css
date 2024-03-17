@@ -2,6 +2,7 @@
 @import url('/styles/reset.css');
 @import url('/styles/mobile.css');
 
+
 .grid {
     display: grid;
 }
@@ -11,7 +12,7 @@
         'header header header header'
         'hero hero hero hero'
         'content content content content'
-        'content content content content'
+        'body body body body body '
         'footer footer footer footer';
 }
 
@@ -23,10 +24,10 @@
     
 }
 #header #logo{
-    width: 200px;
+    width: 80%;
     max-width: 100%;
-    margin-top: 10px;
-    margin-right: 20px;
+    margin-top: 3%;
+    margin-right: 10%;
     
 }
 #header nav ul{
@@ -63,23 +64,63 @@
 
 #hero {
     grid-area: hero;
-  font-size: 200%;
+height: 400px;
+    background-image: url("/images/background\ photo\ with\ text\ \'Bake\ with\ us\'\,\ lighter\ and\ wider.gif");
+
    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60%;
+    width: 100%;
+
+     
+  }
+  
+.grid-item {
+    margin: 5%;
+    width: 80%;
+    margin-right: 100%;
+      text-align: center;
+ 
+
+}
+/* photos down */
+.grid-item1 {
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(236, 225, 225);
+    width: 80%;
+    height: 90%;
+    transition: width 1s, height 1s;
+    margin-left: 10%;
+    border-radius: 10%;
+    font-size:large;
+    
 }
 
 /* footer with icons */
 .footer {
   grid-area: footer;
   padding:5%;
-   width: 100%;
-   background-color: rgb(243, 237, 237);
+   font-weight: bold;
+   padding: 4%;
+   font-size: 100%;
+   border: none;
+   cursor: pointer;
+   align-content:center ;
+   list-style-type: none;
+   overflow: hidden;
+   background-color:rgb(243, 237, 237); 
    color: white;
   text-align: center;
-   
+ 
 
     
-}
-.body {  background-color:rgb(243, 237, 237); 
 }
 /* icons of footer */
 .fa {
@@ -97,19 +138,19 @@
   }
   /* reviews */
   .grid-item1:hover {
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 100%;
   }
   #grid-item1 {transition-timing-function: ease-in;}
 
   /* menu dropdown for other options */
   .dropbtn {
     font-weight: bold;
-    padding: 16px;
-    font-size: 16px;
+    padding: 7%;
+    font-size: 100%;
     border: none;
     cursor: pointer;
-    padding-right: 90px;
+    padding-right: 40%;
     align-content:center ;
     list-style-type: none;
     overflow: hidden;
@@ -128,13 +169,14 @@
     background-color:rgb(243, 237, 237) ;
     text-decoration: none;
     
+    
   }
   
   .dropdown-content a:hover {background-color: rgb(220, 193, 193); ;}
   
   .dropdown:hover .dropdown-content {
     display: block;
-    width: 285px;
+    width: 20%;
   }
   
   .dropdown:hover .dropbtn {
@@ -154,3 +196,32 @@
     -webkit-transform: rotate(45deg);
   }
 
+/* border round */
+  img {
+    border-radius: 3%;
+  }
+
+  .container {
+    font-size: 100%;
+    padding-right: 70%;
+ 
+
+  
+  
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*text inside the photos*/
+  .container img {vertical-align: middle;}
+  
+   .content {
+    position:absolute;
+    bottom: 0;
+    color: #ffffff;
+    height: 60%;
+    padding: 2%;
+    background: rgb(154, 154, 154); 
+    background: rgb(75, 74, 74, 0.7); 
+  }
+  .body{
+    background-color: rgb(243, 237, 237);
+  }
