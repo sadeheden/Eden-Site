@@ -12,8 +12,8 @@
         'header header header header'
         'hero hero hero hero'
         'content content content content'
-        'body body body body body '
-        'footer footer footer footer';
+        'content content content content'
+        'footer fooyter footer footer';
 }
 
 #header {
@@ -82,9 +82,8 @@ height: 400px;
   }
   
 .grid-item {
-    margin: 5%;
-    width: 80%;
-    margin-right: 100%;
+    padding-top: 10%;
+    width: 100%;
       text-align: center;
  
 
@@ -136,7 +135,7 @@ height: 400px;
   .fa:hover {
       opacity: 0.10;
   }
-  /* reviews */
+  /* reviews of people  */
   .grid-item1:hover {
     width: 90%;
     height: 100%;
@@ -204,24 +203,23 @@ height: 400px;
   .container {
     font-size: 100%;
     padding-right: 70%;
- 
-
-  
-  
     font-family: Arial, Helvetica, sans-serif;
   }
   /*text inside the photos*/
-  .container img {vertical-align: middle;}
+  .box img {vertical-align: middle;
+  width: 80%;}
   
-   .content {
-    position:absolute;
+   .box {
     bottom: 0;
-    color: #ffffff;
-    height: 60%;
-    padding: 2%;
+    color: #6e6b6b;
+    padding: 8%;
+    padding-left: 25%;
     background: rgb(154, 154, 154); 
-    background: rgb(75, 74, 74, 0.7); 
+    background: rgb(243, 237, 237); 
+    grid-area: content;
   }
+  .box h1{text-align: center; padding-right: 25%;font-size: 30px;}
+  .box p{text-align: center;padding-right: 20%;font-size: 25px;}
   .body{
     background-color: rgb(243, 237, 237);
   }
