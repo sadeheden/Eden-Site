@@ -218,7 +218,7 @@ height: 400px;
     background: rgb(243, 237, 237); 
     grid-area: content;
   }
-  .box h1{text-align: center; padding-right: 25%;font-size: 30px;}
+  .box h1{text-align: center; padding-right: 21%;font-size: 30px;}
   .box p{text-align: center;padding-right: 20%;font-size: 25px;}
   .body{
     background-color: rgb(243, 237, 237);
