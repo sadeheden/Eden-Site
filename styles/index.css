@@ -40,7 +40,7 @@
   width: 100%;
   max-width: 80%;
   margin-top: 5%;
-  margin-right: 10%;
+  margin-right: 16%;
   
 
 }
@@ -68,7 +68,6 @@
     background-image: url("/images/HERO2.png");
 width: 100%;
 height: 85vh;
-background-image: url("/images/HERO2.png");
 background-repeat: no-repeat;
 background-position: 93% 20%;  
 background-size: cover;
@@ -227,7 +226,7 @@ background-size: cover;
     background-color: rgb(243, 237, 237);
   }
   .box {
-    margin: 0 auto;
+    margin-top:10%;
     background: rgba(255,255,255,0.2);
     padding: 35px;
     border: 2px solid #fff;
@@ -271,12 +270,19 @@ background-size: cover;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 30%;
+    width: 50%;
     position: relative;
     transition: all 5s ease-in-out;
   }
   
   .popup h2 {
+    font-size: 95%;
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup p {
+    font-size: 95%;
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
@@ -299,35 +305,47 @@ background-size: cover;
     overflow: auto;
   }
   
-  @media screen and (max-width: 700px){
-    .hero{
-      height: 35vh;
-      background-repeat: no-repeat;
-      background-position: 95% 20%;  }
+  @media only screen and (max-width: 700px){
+    #hero{
+      background-position: 93% 40%;  
+      }
      .grid {
           display: block;;
       }
-   
+      .popup h2 {
+        font-size: 65%;}
+        .popup p {
+          font-size: 55%;}
+          .button{font-size: 0.5 rem;padding: 5%;}
+          .logo{width:30%;margin-right: 35%;}
+    
     }
 
-  
-  @media screen and (max-width: 300px){
-    .hero{
-      height: 35vh;
-      background-repeat: no-repeat;
-      background-position: 95% 20%;  
-   
+    @media only screen and (max-width: 500px){
+    #hero{
+     
+      background-image: url("/images/Design\ 3.png");
+      background-size: cover;height: 65vh;;
+
+
   
     }
+    .logo{width:20%;margin-left: 35%;}
     .content{
       grid-template-columns: 1fr;
      }
      .grid {
     display: block;;
     }
-   .button{font-size: 0.8 rem;}
+    .button{font-size: 0.5 rem;padding: 5%;}
    .grid-item1 {
     font-size: 40%;}
+
+    .popup h2 {
+      font-size: 35%;}
+      .popup h2 {
+        font-size:25%;}
+
   }
 
   
