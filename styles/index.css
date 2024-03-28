@@ -67,11 +67,10 @@
     grid-area: hero;
     background-image: url("/images/HERO2.png");
 width: 100%;
-size: 80px;
 height: 85vh;
 background-image: url("/images/HERO2.png");
 background-repeat: no-repeat;
-background-position: 90% 20%;  
+background-position: 93% 20%;  
 background-size: cover;
    
 }
@@ -228,7 +227,6 @@ background-size: cover;
     background-color: rgb(243, 237, 237);
   }
   .box {
-    width: 40%;
     margin: 0 auto;
     background: rgba(255,255,255,0.2);
     padding: 35px;
@@ -303,18 +301,34 @@ background-size: cover;
   
   @media screen and (max-width: 700px){
     .hero{
-      width:700px;
-      height: 500px;
-    
+      height: 35vh;
+      background-repeat: no-repeat;
+      background-position: 95% 20%;  }
+     .grid {
+          display: block;;
+      }
    
     }
 
-  }
-  @media screen and (max-width: 200px){
+  
+  @media screen and (max-width: 300px){
     .hero{
-      width:fit-content;
-      height: fit-content;
+      height: 35vh;
+      background-repeat: no-repeat;
+      background-position: 95% 20%;  
+   
+  
     }
-
+    .content{
+      grid-template-columns: 1fr;
+     }
+     .grid {
+    display: block;;
+    }
+   .button{font-size: 0.8 rem;}
+   .grid-item1 {
+    font-size: 40%;}
   }
+
+  
   
