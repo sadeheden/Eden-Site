@@ -1,12 +1,4 @@
-#hero{
-    size: 90px;
-    height: 85vh;
-    background-image: url("//images/hero3.png");
-    background-repeat: no-repeat;
-    background-position: 90% 20%;  
-    background-size: cover;
 
-}
 
 
 #call_to_action{
@@ -19,3 +11,8 @@
     font-size: var(--fs-header);
 }
 
+@media only screen and (min-width: 400px) {
+    body {
+      background-image: url('/images/16.JPG');
+    }
+  }
