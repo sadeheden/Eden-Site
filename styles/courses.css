@@ -65,9 +65,11 @@
 #hero {
     grid-area: hero;
    height:600px ;
+   width: auto;
+   background-repeat: no-repeat;
    overflow: hidden;
    position: relative;
-    background-image: url("/images/background\ photo\ with\ text\ \'Bake\ with\ us\'\,\ lighter\ and\ wider.gif");
+    background-image: url("/images/Design\ 3.gif");
 
    
 }
