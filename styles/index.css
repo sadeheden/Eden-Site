@@ -323,8 +323,7 @@ background-size: cover;
 
     @media only screen and (max-width: 500px){
     #hero{
-     
-      background-image: url("/images/Design\ 3.png");
+    
       background-size: cover;height: 65vh;;
 
 
