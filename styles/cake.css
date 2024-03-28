@@ -148,7 +148,7 @@
     -webkit-transform: rotate(45deg);
   }
   .hero{
-    font-size: 150PX;
+    font-size: 130PX;
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
     text-align: center;
@@ -168,11 +168,12 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
+  
   }
   .column{
     -ms-flex: 25%;
     flex:25%;
-    max-width: 25%;
+    max-width: 100%;
     padding: 0 40px;
     position: relative;
   }
@@ -202,7 +203,7 @@
   .text {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
-    font-size: 180%;
+    font-size: 160%;
   
   }
   .text-middle {
@@ -214,7 +215,7 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    width: 100%;
+    width: 70%;
     height: 40%;
   }
    .img{ 
@@ -223,4 +224,35 @@
     transition: .5s ease;
     backface-visibility:hidden;
   }
+  @media only screen and (max-width: 800px){
+    .hero h1{font-size: 80%;
+    }
+    .column-hover{
+      position: relative;
+    }
+    .text-middle text {
+     margin: 4%;}
+    .column{width:180px;
+    margin: 15%;}
+    .text{font-size: 100%;}
+    .column-hover {width: 400%;}
+    .row{  display:contents;}
+  }
+  @media only screen and (max-width: 500px){
+    .hero h1{font-size: 40%;
+    }
+    .column-hover{
+      position: relative;
+    }
+    .text-middle text {
+     margin: 4%;}
+    .column{width: 120px;;
+    margin: 20%;}
+    .text{font-size: 70%;}
   
+    .row{  display:contents;}
+    .logo{width:20%;margin-left: 35%;}
+
+    }  
+    @media only screen and (max-width: 300px){
+      .column-hover img{width: 2000%;}}

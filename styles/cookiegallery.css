@@ -172,7 +172,7 @@
   .column{
     -ms-flex: 25%;
     flex:25%;
-    max-width: 25%;
+    max-width: 100%;
     padding: 0 40px;
     position: relative;
   }
@@ -224,3 +224,35 @@
     backface-visibility:hidden;
   }
   
+  @media only screen and (max-width: 800px){
+    .hero h1{font-size: 80%;
+    }
+    .column-hover{
+      position: relative;
+    }
+    .text-middle text {
+     margin: 4%;}
+    .column{width:180px;
+    margin: 15%;}
+    .text{font-size: 100%;}
+    .column-hover {width: 400%;}
+    .row{  display:contents;}
+  }
+  @media only screen and (max-width: 500px){
+    .hero h1{font-size: 30%;
+    }
+    .column-hover{
+      position: relative;
+    }
+    .text-middle text {
+     margin: 4%;}
+    .column{width: 120px;;
+    margin: 10%;}
+    .text{font-size: 70%;}
+  
+    .row{  display:contents;}
+    .logo{width:20%;margin-left: 35%;}
+
+    }  
+    @media only screen and (max-width: 300px){
+      .column-hover img{width: 2000%;}}
