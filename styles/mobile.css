@@ -11,8 +11,3 @@
     font-size: var(--fs-header);
 }
 
-@media only screen and (min-width: 400px) {
-    body {
-      background-image: url('/images/16.JPG');
-    }
-  }
