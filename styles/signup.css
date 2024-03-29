@@ -258,4 +258,30 @@ input[type=submit]:hover {
   
 }
 
+@media only screen and (max-width: 800px){
+  #hero{
+    background-size: cover;height: 65vh;;
+
+  }
+  .logo{width:20%;margin-left: 35%;}
+ 
+   .grid {
+  display: block;;
+  }
+  .container {padding: 0%;}
+}
+
+
+@media only screen and (max-width: 400px){
+  #hero{
+    background-size: cover;height: 65vh;;
+
+  }
+  .logo{width:20%;margin-left: 35%;}
+ 
+   .grid {
+  display: block;;
+  }
+  .container {padding: 0%;}
+}
 
