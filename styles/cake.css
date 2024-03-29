@@ -225,29 +225,30 @@
     backface-visibility:hidden;
   }
   @media only screen and (max-width: 800px){
-    .hero h1{font-size: 80%;
+    .hero h1{font-size: 91%;
     }
     .column-hover{
       position: relative;
     }
     .text-middle text {
      margin: 4%;}
-    .column{width:180px;
-    margin: 15%;}
+    .column{width:29%;
+    margin: 20%;}
     .text{font-size: 100%;}
     .column-hover {width: 400%;}
     .row{  display:contents;}
   }
-  @media only screen and (max-width: 500px){
-    .hero h1{font-size: 40%;
+  @media only screen and (max-width: 400px){
+    .hero h1{font-size: 45%;
     }
     .column-hover{
       position: relative;
     }
     .text-middle text {
      margin: 4%;}
-    .column{width: 120px;;
-    margin: 20%;}
+    .column{margin: 24%;
+      padding: 10%;
+  }
     .text{font-size: 70%;}
   
     .row{  display:contents;}
@@ -256,3 +257,8 @@
     }  
     @media only screen and (max-width: 300px){
       .column-hover img{width: 2000%;}}
+      
+      
+      
+      
+      
