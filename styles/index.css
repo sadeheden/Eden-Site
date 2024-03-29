@@ -309,9 +309,7 @@ background-size: cover;
     #hero{
       background-position: 93% 40%;  
       }
-     .grid {
-          display: block;;
-      }
+   
       .popup h2 {
         font-size: 65%;}
         .popup p {
@@ -323,7 +321,7 @@ background-size: cover;
 
     @media only screen and (max-width: 500px){
     #hero{
-    
+    background-image: url(/images/Design\ 3.png);
       background-size: cover;height: 65vh;;
 
 
