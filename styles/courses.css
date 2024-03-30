@@ -80,20 +80,7 @@
 
     
 }
-/* icons of footer */
-.fa {
-    padding: 20px;
-    font-size: 20px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    padding-left: 40px;
-  }
-  
-  .fa:hover {
-      opacity: 0.10;
-  }
+
   /* reviews of people  */
   .grid-item1:hover {
     width: 90%;

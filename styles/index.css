@@ -63,9 +63,8 @@ background-size: cover;
 /* footer with icons */
 .footer {
   grid-area: footer;
-  padding:5%;
    font-weight: bold;
-   padding: 4%;
+   padding: 8%;
    font-size: 100%;
    border: none;
    cursor: pointer;
@@ -75,24 +74,9 @@ background-size: cover;
    background-color:rgb(243, 237, 237); 
    color: white;
   text-align: center;
- 
-
     
 }
-/* icons of footer */
-.fa {
-    padding: 20px;
-    font-size: 20px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    padding-left: 40px;
-  }
-  
-  .fa:hover {
-      opacity: 0.10;
-  }
+
   /* reviews */
   .grid-item1:hover {
     width: 90%;
@@ -232,7 +216,7 @@ background-size: cover;
       background-size: cover;height: 100%;;
       background-position: 50% 40%;
     }
-    .logo{width:20%;margin-left: 35%;}
+  
     .content{
       grid-template-columns: 1fr;
      }
