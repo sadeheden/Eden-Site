@@ -104,6 +104,7 @@
     .menu-button-container {
       display: flex;
     }
+    .footer img{width: 10%;}
     #hero{
       background-size: cover;height: 35vh;;
   
@@ -121,6 +122,7 @@
     .column{margin: 24%;
       padding: 10%;
   }
+  .footer img{width: 10%;}
     .text{font-size: 70%;}
   
     .row{  display:contents;}

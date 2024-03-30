@@ -147,6 +147,7 @@
           border-bottom: 1px solid #444;
         }
         .box{margin-top: 5%;}
+        .footer img{width: 15%;}
       }
       a:link {
         text-decoration: none ;
@@ -170,3 +171,4 @@
         text-align: center;
      
     }
+    .footer img{width: 3%;}

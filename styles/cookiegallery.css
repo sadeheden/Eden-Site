@@ -95,7 +95,7 @@
     .hero{ font-size: 80px;
     }
     .col{width: auto;}
-    
+    .footer img{width: 10%;}
     .column-hover{
       position: relative;
     }
@@ -118,6 +118,7 @@
     .column{margin: 24%;
       padding: 10%;
   }
+  .footer img{width: 10%;}
     .text{font-size: 70%;}
   
     .row{ display:contents;}

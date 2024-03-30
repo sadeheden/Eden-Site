@@ -3,20 +3,6 @@
 @import url('/styles/mobile.css');
 
 
-.grid {
-    display: grid;
-}
-
-.body {
-    grid-template-areas: 
-        'header header header header'
-        'hero hero hero hero'
-        'content content content content'
-        'content content content content'
-        'footer fooyter footer footer';
-}
-
-
 #hero {
     grid-area: hero;
     width: 100%;
@@ -61,23 +47,6 @@
     
 }
 
-/* footer with icons */
-.footer {
-  grid-area: footer;
-  padding:5%;
-   font-weight: bold;
-   padding: 4%;
-   font-size: 100%;
-   border: none;
-   cursor: pointer;
-   align-content:center ;
-   list-style-type: none;
-   overflow: hidden;
-   background-color:rgb(243, 237, 237); 
-   color: white;
-  text-align: center;
- 
-}
 
   /* reviews of people  */
   .grid-item1:hover {
@@ -138,7 +107,7 @@
       display: flex;}
       .col{width: auto;}
     
-    
+      .footer img{width: 10%;}
     .grid-container{display: inherit;padding: 8%}
     .button{margin-left:15%;}
     .grid-item1 {font-size: 130%;margin-bottom: 3%;margin-left: 5%; };

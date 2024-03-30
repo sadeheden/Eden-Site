@@ -30,7 +30,7 @@
   .menu-button-container {
     display: flex;
   }
-  
+  .footer img{width: 10%;}
   #hero{
     background-size: cover;height: 35vh;;
   }
