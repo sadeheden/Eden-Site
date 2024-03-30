@@ -167,7 +167,8 @@ background-size: cover;
     visibility: visible;
     opacity: 1;
   }
-  
+  .content h1{font-size: 75%;}
+  .content p{font-size: 60%;}
   .popup {
     margin: 70px auto;
     padding: 20px;
@@ -210,8 +211,9 @@ background-size: cover;
   
   @media only screen and (max-width: 700px){
     #hero{
-      background-position: 93% 40%; height: 100%;
+      background-position: 100% 20%; height: 100%;
       }
+     
       .grid {
         display: block;;
         }
@@ -227,8 +229,8 @@ background-size: cover;
     @media only screen and (max-width: 400px){
     #hero{
     background-image: url(/images/Design\ 3.png);
-      background-size: cover;height: 95vh;;
-  
+      background-size: cover;height: 100%;;
+      background-position: 50% 40%;
     }
     .logo{width:20%;margin-left: 35%;}
     .content{
@@ -248,7 +250,7 @@ background-size: cover;
   }
 
   
-  /*heaer*/
+  /*header*/
   
   .top-nav {
     display: flex;
@@ -271,7 +273,7 @@ background-size: cover;
     padding: 0;
     font-size: 80%;
   }
-  
+ 
   .menu > li {
     margin: 0 1rem;
     overflow: hidden;
