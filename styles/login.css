@@ -55,7 +55,7 @@ input[type=submit]:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
   .menu-button-container {
     display: flex;
   }
@@ -66,7 +66,9 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 500px){
-
+  .menu-button-container {
+    display: flex;
+  }
   .container{
   margin: 10%;
   width:auto;

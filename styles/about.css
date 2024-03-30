@@ -14,7 +14,7 @@
 }
  .grid-container p{margin-right: 65%;font-size: 140%;margin-left:5%;padding-top: 2%;}
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
   .menu-button-container {
     display: flex;
   }
