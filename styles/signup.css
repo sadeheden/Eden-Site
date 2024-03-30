@@ -18,10 +18,10 @@
 
 #hero {
     grid-area: hero;
-    height: 180px;
-    background-image: url("/images/hearts\ 2.jpg")
-
-   
+    height: 260px;
+    background-position: 60%  20%;;
+    background-image: url("/images/zuzana-rYHIP1KrHz0-unsplash.jpg")
+     
 }
 
 /* footer with icons */
@@ -67,63 +67,12 @@
   }
   #grid-item1 {transition-timing-function: ease-in;}
 
-  /* menu dropdown for other options */
-   .dropbtn {
-    font-weight: bold;
-    padding: 7%;
-    font-size: 100%;
-    border: none;
-    cursor: pointer;
-    padding-right: 40%;
-    align-content:center ;
-    list-style-type: none;
-    overflow: hidden;
-    background-color:rgb(243, 237, 237); 
- 
-  }
   
-  .dropdown-content {
-    display: none;
-    position:fixed;
-    background-color:rgb(243, 237, 237);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    background-color:rgb(243, 237, 237) ;
-    text-decoration: none;
-    
-  }
-  
-  .dropdown-content a:hover {background-color: rgb(220, 193, 193); ;}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-    width: 285px;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color:rgb(243, 237, 237); ;
-  }
-  /* arrow in the menu */
-  .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 2px;
-  
-  }
-
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  } */ */
-
 /* style the container of all */
 .container {
   position: relative;
   border-radius: 5px;
-  background-color: rgb(243, 237, 237);
+  background-color: rgb(246, 235, 235);
  height: 600px;
   padding-right: 200px;
   padding-left: 200px; 

@@ -19,7 +19,7 @@
 
 #hero {
     grid-area: hero;
-   height:600px ;
+   height:500px ;
    width: auto;
    background-repeat: no-repeat;
    overflow: hidden;
@@ -32,7 +32,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 3%;
+    padding: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
     width: 100%;
@@ -42,18 +42,18 @@
   
 .grid-item {
     padding-top: 10%;
-    width: 100%;
+    width: 90%;
       text-align: center;
  
 
 }
 /* photos down */
 .grid-item1 {
-    padding: 5%;
+    padding: 8%;
     text-align: center;
     background-color: rgb(236, 225, 225);
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 110%;
     transition: width 1s, height 1s;
     margin-left: 10%;
     border-radius: 10%;
@@ -146,24 +146,8 @@
     background:rgb(238, 158, 171);
   }
  
-  
-  @media only screen and (max-width: 900px){
-    #hero{     background-size: cover;height: 35vh;;
-      .button{font-size: 20px; margin-right:10%;}
-       .p{font-size: 10%;}
-      }}
 
-      @media only screen and (max-width: 500px){
-        #hero{
-         
-          background-size: cover;height: 45vh;
-        }
-        .button{font-size: 20px; margin-left: 5%;}
-        .grid-container{grid-template-columns:auto}
-        .logo{width:20%;margin-left: 35%;}
-    
-    .p{font-size: 50%;}
-      }
+      
        
         /*new header*/
   .top-nav {
@@ -247,7 +231,10 @@
   @media (max-width: 800px) {
     .menu-button-container {
       display: flex;
+   
+    
     }
+    .grid-item1 {font-size: 80%};
     #hero{
       background-size: cover;height: 35vh;;
   
