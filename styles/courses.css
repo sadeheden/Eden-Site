@@ -216,13 +216,16 @@
   }
   
   @media (max-width: 800px) {
+    #hero{background-image: url(/images/mobile\ course.gif);
+    background-position: 60% 20%;}
     .menu-button-container {
       display: flex;
    
     
     }
+    .grid-container{display: inherit;padding: 8%}
     .button{margin-left:15%;}
-    .grid-item1 {font-size: 80%};
+    .grid-item1 {font-size: 130%;margin-bottom: 3%;margin-left: 5%; };
     #hero{
       background-size: cover;height: 35vh;;
   
