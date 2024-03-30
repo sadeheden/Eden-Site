@@ -10,7 +10,6 @@
 .grid {
     display: grid;
 }
-
 .body {
     grid-template-areas: 
         'header header header header'
@@ -32,7 +31,8 @@
         height: 50px;
         padding: 1em;
       }
-      
+      #logo{width: 28%;}
+
       .menu {
         display: -webkit-box;
         flex-direction: row;
@@ -109,7 +109,7 @@
           background-size: cover;height: 35vh;;
       
         }
-     
+        #logo{width: 40%;}
         .menu {  display: flex;
           position: absolute;
           top: 0;
