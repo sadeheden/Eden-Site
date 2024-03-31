@@ -87,7 +87,7 @@
     transition: .5s ease;
     backface-visibility:hidden;
   }
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 600px){
     .menu-button-container {
       display: inline;
     }
@@ -117,8 +117,8 @@
     .menu{display: contents;}
     .text-middle text {
      margin: 4%;}
-    .column{margin: 24%;
-      padding: 10%;
+    .column{margin: 25%;
+      padding-right: 10%;
   }
   .footer img{width: 10%;}
     .text{font-size: 70%;}
