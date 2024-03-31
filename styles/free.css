@@ -15,7 +15,7 @@
     overflow: auto;
     display: block;
 }
-.body article{padding-right: 20%;
+.body article{padding: 5%;
   background-color:rgb(243, 237, 237);font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20%;}
