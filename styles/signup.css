@@ -25,8 +25,6 @@
   border-radius: 5px;
   background-color: rgb(246, 235, 235);
  height: 600px;
-  padding-right: 200px;
-  padding-left: 200px; 
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -48,7 +46,7 @@
 input,
 .btn {
   width: 100%;
-  padding: 8px;
+  padding: 18px;
   border: none;
   border-radius: 4px;
   margin: 5px 0;
@@ -83,8 +81,9 @@ input:hover,
 /* style the submit button */
 input[type=submit] {
   background-color: #0a0f0d;
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
+  margin-top: 10%;
 }
 
 input[type=submit]:hover {
@@ -93,7 +92,7 @@ input[type=submit]:hover {
 
 /* Two-column layout */
 .col {
-  float: left;
+
   width: 50%;
   margin: auto;
   padding: 0 50px;
@@ -118,7 +117,7 @@ input[type=submit]:hover {
 /* bottom container */
 .bottom-container {
   text-align: center;
-  background-color: #746c6c;
+  background-color:rgb(243, 237, 237);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 5%;
   

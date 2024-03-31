@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-position: 3% 20%;  
     background-size: cover;
-    background-image: url("/images/Design\ 3.gif");
+    background-image: url(/images/pink\ course.gif);
 
    
 }
@@ -37,7 +37,7 @@
 .grid-item1 {
     padding: 8%;
     text-align: center;
-    background-color: rgb(236, 225, 225);
+    background-color: rgb(218, 214, 214);
     width: 90%;
     height: 110%;
     transition: width 1s, height 1s;
@@ -86,12 +86,12 @@
   }
   /* button for the lesson */
   .button {
-    font-size: 1.5em;
+    font-size: 6.5em;
     padding: 20px;
     margin-left: 25%;
     color: black;
     border: 4px solid rgb(238, 158, 171);
-    border-radius: 20px/50px;
+    border-radius: 60px/50px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -107,7 +107,6 @@
       display: inline;}
       .col{width: auto;}
       .menu{display: contents;}
-    
       .footer img{width: 10%;}
     .grid-container{display: inherit;padding: 2%}
     .button{margin:auto}
@@ -127,5 +126,5 @@
         .button{margin:auto}
        
         #hero{
-          background-size: cover;height: 35vh;;}}
+          background-size: cover;height: 85vh;;}}
       
