@@ -104,8 +104,9 @@
     #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;
     background-position: 60% 20%;}
     .menu-button-container {
-      display: flex;}
+      display: inline;}
       .col{width: auto;}
+      .menu{display: contents;}
     
       .footer img{width: 10%;}
     .grid-container{display: inherit;padding: 2%}
@@ -118,9 +119,9 @@
         #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;
         background-position: 60% 20%;}
         .menu-button-container {
-          display: flex;}
+          display: inline;}
           .col{width: auto;}
-        
+          .menu{display: contents;}
           .footer img{width: 10%;}
         .grid-container{display: inherit;padding: 8%}
         .button{margin:auto}

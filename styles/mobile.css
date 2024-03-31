@@ -20,26 +20,27 @@
 
     /*new header*/
     .top-nav {
-        display: flex;
+        display: table-cell;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        background-color: #73aab7;
+        background-color: #a7aaab;
         background: linear-gradient(to left, #fefcfc, rgb(243, 237, 237));
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: #000000;
-        height: 50px;
+        height: 90px;
         padding: 1em;
+        text-align: left;
       }
-      #logo{width: 28%;}
-
+      #logo{width: 18%;}
+ 
       .menu {
         display: -webkit-box;
         flex-direction: row;
         list-style-type: none;
-        margin: 0%;
-        padding: 0;
-        font-size: 80%;
+ 
+        font-size: 120%;
+    
       }
       
       .menu > li {
@@ -66,7 +67,7 @@
       .menu-button::before,
       .menu-button::after {
         display: block;
-        background-color: #959595;
+        background-color: #484848;
         position: absolute;
         height: 4px;
         width: 30px;
@@ -167,7 +168,6 @@
          list-style-type: none;
          overflow: hidden;
          background-color:rgb(243, 237, 237); 
-         color: white;
         text-align: center;
      
     }

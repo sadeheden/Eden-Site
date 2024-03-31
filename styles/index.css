@@ -171,7 +171,7 @@ background-size: cover;
         font-size: 65%;}
         .popup p {
           font-size: 55%;}
-          .button{font-size: 0.5 rem;padding: 5%;}
+          .button{font-size: 0.5 rem;padding: 5%; text-align:center;}
           .footer img{width: 10%;}
     
         }
@@ -187,7 +187,7 @@ background-size: cover;
       grid-template-columns: 1fr;
      }
      .footer img{width: 10%;}
-    .button{font-size: 0.5 rem;padding: 5%;}
+    .button{font-size: 0.5 rem;padding: 5%;text-align:center;}
    .grid-item1 {
     font-size: 40%;}
     .grid {
@@ -197,11 +197,12 @@ background-size: cover;
       font-size: 35%;}
       .popup h2 {
         font-size:25%;}
+        .menu{display: contents;}
   }
 
   @media (max-width: 800px) {
     .menu-button-container {
-      display: flex;
+      display: inline;
     }
     #hero{
       background-size: cover;height: 75vh;;
@@ -209,4 +210,5 @@ background-size: cover;
    
     }
     .col{width: auto;}
+    .menu{display: contents;}
   }

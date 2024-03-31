@@ -26,15 +26,24 @@
 
    @media only screen and (max-width: 500px){
    #hero{background-size: cover;height: 20vh;;
-  background-position: 66% 20%;}
-  .menu-button-container {
-    display: flex;
+   background-position: 66% 20%;}
+  
+   .menu-button-container {
+    display: inline;
   }
-  .footer img{width: 10%;}
+  .menu-button-container {
+    display: inline;
+  }
+  .menu{display: contents;}
+
+  .col{width: auto;} #content{
+    background-position: 70% -60%; 
+
+  }
   #hero{
     background-size: cover;height: 35vh;;
   }
-  .col{width: auto;}
+
       }
     
     

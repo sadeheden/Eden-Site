@@ -94,6 +94,7 @@
     .column-hover{
       position: relative;
     }
+    .menu{display: contents;}
     .text-middle text {
      margin: 4%;}
     .column{width:29%;
@@ -102,7 +103,7 @@
     .column-hover {width: 400%;}
     .row{  display:contents;}
     .menu-button-container {
-      display: flex;
+      display: inline;
     }
     .footer img{width: 10%;}
     #hero{
@@ -114,6 +115,7 @@
   @media only screen and (max-width: 400px){
     .hero h1{font-size: 45%;
     }
+    .menu{display: contents;}
     .column-hover{
       position: relative;
     }

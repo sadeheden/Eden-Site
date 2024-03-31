@@ -89,7 +89,7 @@
   }
   @media only screen and (max-width: 800px){
     .menu-button-container {
-      display: flex;
+      display: inline;
     }
     #hero{height: 35vh;}
     .hero{ font-size: 80px;
@@ -99,6 +99,7 @@
     .column-hover{
       position: relative;
     }
+    .menu{display: contents;}
     .text-middle text {
      margin: 4%;}
     .column{width:29%;
@@ -113,6 +114,7 @@
     .column-hover{
       position: relative;
     }
+    .menu{display: contents;}
     .text-middle text {
      margin: 4%;}
     .column{margin: 24%;
