@@ -12,7 +12,7 @@
     display: block;
     font-size: 80%;
 }
-
+.body article{margin-top: 10%;}
 .body article{padding-right: 10%;
   background-color:rgb(243, 237, 237);font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
