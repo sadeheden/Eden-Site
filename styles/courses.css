@@ -38,10 +38,10 @@
     padding: 8%;
     text-align: center;
     background-color: rgb(218, 214, 214);
-    width: 90%;
-    height: 110%;
+    width: 80%;
+    height: 90%;
     transition: width 1s, height 1s;
-    margin-left: 10%;
+    margin-left: 20%;
     border-radius: 10%;
     font-size:120%;
     
@@ -73,7 +73,6 @@
    .box {
     bottom: 0;
     color: #6e6b6b;
-    margin-top: 5%;
     padding: 8%;
     padding-left: 25%;
    
@@ -115,7 +114,7 @@
       background-size: cover;height: 35vh;;}}
 
       @media (max-width: 800px) {
-        #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;
+        #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;height: 85vh;
         background-position: 60% 20%;}
         .menu-button-container {
           display: inline;}
@@ -125,6 +124,5 @@
         .grid-container{display: inherit;padding: 8%}
         .button{margin:auto}
        
-        #hero{
-          background-size: cover;height: 85vh;;}}
+    }
       

@@ -20,11 +20,12 @@
   }
   .menu{display: contents;}
   #hero{
-    background-size: cover;height: 35vh;;
+    background-size: cover;height: 55vh;;
 
   }
-  .col{width: auto;} #content{
-    background-position: 70% -60%; 
+  .col{width: auto;} 
+  #content{
+    background-position: 70% -90%; 
 
   }
   .footer img{width: 10%;}

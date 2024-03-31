@@ -17,6 +17,7 @@
         'content content content content'
         'footer footer footer footer';
 }
+#hero{margin-top: 5%;}
 
     /*new header*/
     .top-nav {
@@ -33,6 +34,7 @@
         text-align: left;
         position: fixed; 
         top: 0;
+        z-index: 99;
       }
       #logo{width: 18%;}
 
@@ -174,3 +176,8 @@
      
     }
     .footer img{width: 3%;}
+    
+    a:hover {
+        color: rgb(244, 203, 203);
+      }
+ 

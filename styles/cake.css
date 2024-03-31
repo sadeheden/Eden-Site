@@ -9,7 +9,8 @@
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
-    display: block
+    display: block;
+  
 }
   .hero{
     font-size: 120PX;
@@ -41,7 +42,7 @@
     padding: 0 40px;
     position: relative;
   }
-  .column img{
+  .column img{ 
     margin-top: 40%;
     vertical-align: middle;
     width: 100%;
@@ -49,6 +50,7 @@
     
    
   }  
+  .img{overflow:content-box;}
   .column-hover{
     position: relative;
     width: 100%;

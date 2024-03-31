@@ -6,7 +6,7 @@
   background-size: cover;height: 65vh;
     background-image: url("/images/dunats.png")
   ;background-position: 80% 20%;}
-  #hero h1{padding-right: 5%;font-size: 40px; padding-top: 5%;color: #815353;}
+  #hero h1{padding-right: 5%;font-size: 90px; padding-top: 5%;color: #f4aaaa;padding-top: 20%;}
 .body{
     background-color: rgb(240, 227, 227);
     scrollbar-color: dark;
@@ -15,8 +15,8 @@
     overflow: auto;
     display: block;
 }
-.body article{padding-right: 10%;
-  background-color:rgb(243, 237, 237);font-size: 16px;
+.body article{padding-right: 20%;
+  background-color:rgb(243, 237, 237);font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20%;}
   #container {
@@ -24,13 +24,10 @@
     margin: auto;
   }
 
-   @media only screen and (max-width: 500px){
+   @media only screen and (max-width: 800px){
    #hero{background-size: cover;height: 20vh;;
    background-position: 66% 20%;}
   
-   .menu-button-container {
-    display: inline;
-  }
   .menu-button-container {
     display: inline;
   }
