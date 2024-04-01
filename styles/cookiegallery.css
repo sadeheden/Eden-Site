@@ -88,7 +88,7 @@
     .menu-button-container {
       display: inline;
     }
-    #hero{height: 35vh;background-image: url("/images/perfectsweetboxmobile.png");
+    #hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
      background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
     }
     .col{width: auto;}
@@ -107,6 +107,9 @@
   }
   /* גודל למובייל */
   @media only screen and (max-width: 400px){
+    #hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
+      background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
+     }
     .hero h1{font-size: 45%;
     }
     .column-hover{
