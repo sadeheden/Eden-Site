@@ -4,7 +4,7 @@
 
 #hero {
     grid-area: hero;
-width: 100%;background-image: url("/images/דף\ ראשי\ חדש\ -\ 1.png");
+width: 100%;background-image: url("/images/HERO2.png");
 height: 80vh;
 background-repeat: no-repeat;
 background-position: 100% 90%;  
@@ -70,7 +70,7 @@ background-size: cover;
     color: #ffffff;
     width: 100%;
     padding: 2%;
-    background: rgba(243, 164, 171, 0.602); 
+    background:  rgba(243, 164, 171, 0.602); 
   }
   .body{
     background-color: rgb(243, 237, 237);
@@ -121,7 +121,7 @@ background-size: cover;
   .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #d29e9e;
+    background: #ecd2d2;
     border-radius: 5px;
     width: 50%;
     position: relative;
