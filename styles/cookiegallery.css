@@ -115,6 +115,7 @@
     .column-hover{
       position: relative;
     }
+    #hero{height: 35vh;background-image: url("/images/perfectsweetboxmobile.png");}
     .menu{display: contents;}
     .text-middle text {
      margin: 4%;}

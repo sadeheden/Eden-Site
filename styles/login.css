@@ -34,7 +34,6 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color:rgb(243, 237, 237); 
 ;
-  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -59,7 +58,7 @@ input[type=submit]:hover {
   .menu-button-container {
     display: inline;
   }
-#hero{background-position: 0% 5%;background-image: url(/images/mobiletouch.png);margin-top: 10%;}
+#hero{background-position: 0% 0%;background-image: url(/images/keepjff.png);margin-top: 10%;}
   .container{
   width:auto;margin: 10%;
    }
@@ -77,7 +76,7 @@ input[type=submit]:hover {
   width:auto;
   
    }
-   #hero{background-position: 10% 0%;margin-top: 15%;
+   #hero{margin-top: 15%;
  
    }
    .menu{display: contents;}
