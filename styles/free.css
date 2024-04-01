@@ -37,11 +37,10 @@
     background-position: 70% -60%; 
 
   }
+ }
+  @media only screen and (max-width: 400px){
   #hero{
-    background-size: cover;height: 35vh;;
-  }
-  .hero{
-    background-image: url("/images/donutrecipemobile.png")
+    background-image: url("/images/donutrecipemobile.png");margin-top: 20%;
   }
 
       }
