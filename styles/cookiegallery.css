@@ -38,7 +38,7 @@
     position: relative;
   }
   .column img{
-    margin-top: 40%;
+    margin-top: 90%;
     vertical-align: middle;
     width: 100%;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -107,8 +107,9 @@
   }
   /* גודל למובייל */
   @media only screen and (max-width: 400px){
-    .hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
-      background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
+    /* .hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
+      background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%; */
+      .hero{background-position: 40% 0%;width:auto;background-image: url("/images/perfectweetboxmobilelast.png");}
      }
     .hero h1{font-size: 45%;
     }
@@ -128,6 +129,6 @@
     .row{ display:contents;}
    
 
-    }  
+
  
 
