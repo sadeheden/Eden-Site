@@ -88,8 +88,8 @@
     .menu-button-container {
       display: inline;
     }
-    #hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
-     background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
+    .hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
+     background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;width:auto;
     }
     .col{width: auto;}
     .footer img{width: 10%;}
@@ -103,11 +103,11 @@
     margin: 10%;}
     .text{font-size: 100%;}
     .column-hover {width: 400%;}
-    .row{  display:contents;}
+    .row{  display:contents;padding-top: 30%;}
   }
   /* גודל למובייל */
   @media only screen and (max-width: 400px){
-    #hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
+    .hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
       background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
      }
     .hero h1{font-size: 45%;
