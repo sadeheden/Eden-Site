@@ -3,7 +3,7 @@
 @import url('/styles/mobile.css');
 
 #hero {
-  background-size: cover;height: 85vh;
+  background-size: cover;height: 80vh;
     background-image: url("/images/editeddonut2.png")
   ;background-position: 80% 20%;}
   #hero h1{padding-right: 5%;font-size: 90px; padding-top: 5%;color: #f4aaaa;padding-top: 20%;}
