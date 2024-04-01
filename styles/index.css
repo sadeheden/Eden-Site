@@ -179,7 +179,7 @@ background-size: cover;
     #hero{
   
       background-size: cover;height: 100%;;
-      background-position: 95% 40%;
+      background-position: 95% 40%;margin-top: 15%;
     }
   
     .content{
