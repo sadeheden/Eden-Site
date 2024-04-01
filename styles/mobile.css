@@ -175,4 +175,7 @@
         text-align: center;
      
     }
-    .footer img{width: 3%; border-radius: 30%;}
+    .footer img{width: 2%; size:35%; border-radius: 30%;}
+    a:hover {
+      color: rgb(244, 203, 203);
+    }
