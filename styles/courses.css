@@ -110,7 +110,7 @@ justify-content: center;
   }
  
   @media (max-width: 400px) {
-    #hero{background-image: url(/images/Design\ 4.png); background-size: cover;
+    #hero{background-image: url(/images/kursmob.gif); background-size: cover;
     background-position: 60% 20%;height: 50vh;
     background-size: cover;}
     .menu-button-container {
@@ -136,5 +136,5 @@ justify-content: center;
        
     }
     @media (max-width: 600px) {
-      #hero{background-image: url(/images/Design\ 4.png); background-size: cover;height: 85vh;
+      #hero{background-image: url(/images/kursmob.gif); background-size: cover;height: 85vh;
       background-position: 60% 80%;}}
