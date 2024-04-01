@@ -32,7 +32,7 @@ background-size: cover;
     padding: 5%;
     font-size: 160%;
     text-align: center;
-    background-color: rgb(243, 237, 237);
+    background-color: rgb(254, 236, 236);
     width:80%;
     height: 100%;
     transition: width 1s, height 1s;
@@ -70,8 +70,7 @@ background-size: cover;
     color: #ffffff;
     width: 100%;
     padding: 2%;
-    background: rgb(154, 154, 154); 
-    background: rgba(138, 131, 131, 0.7); 
+    background: rgba(243, 164, 171, 0.602); 
   }
   .body{
     background-color: rgb(243, 237, 237);
@@ -91,7 +90,7 @@ background-size: cover;
     margin-right: 5%;
     padding: 20px;
     color: black;
-    border: 4px solid pink;
+    border: 4px solid rgb(240, 195, 202);
     border-radius: 60px/50px;
     text-decoration: none;
     cursor: pointer;
@@ -107,10 +106,11 @@ background-size: cover;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(129, 129, 129, 0.7);
+    background: rgba(178, 177, 177, 0.7);
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    margin-top: 5%;
   }
   .overlay:target {
     visibility: visible;
@@ -121,7 +121,7 @@ background-size: cover;
   .popup {
     margin: 70px auto;
     padding: 20px;
-    background: #fff;
+    background: #d29e9e;
     border-radius: 5px;
     width: 50%;
     position: relative;

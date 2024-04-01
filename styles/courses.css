@@ -111,7 +111,7 @@ justify-content: center;
  
   @media (max-width: 400px) {
     #hero{background-image: url(/images/Design\ 4.png); background-size: cover;
-    background-position: 60% 20%;
+    background-position: 60% 20%;height: 50vh;
     background-size: cover;}
     .menu-button-container {
       display: inline;}
@@ -121,11 +121,10 @@ justify-content: center;
     .grid-container{display: inherit;padding: 2%}
     .button{ margin-left: 10%;}
     .grid-item1 {font-size: 130%;margin-bottom: 3%;margin-left: 5%; };
-    #hero{
-      background-size: cover;height: 35vh;;}}
+    }
 
       @media (max-width: 800px) {
-        #hero{ background-size: cover;height: 95vh;
+        #hero{ background-size: cover;height: 35vh;
         background-position: 0% 80%;}
         .menu-button-container {
           display: inline;}

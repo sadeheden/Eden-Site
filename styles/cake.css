@@ -89,7 +89,7 @@
   /* גודל טבלט */
   @media only screen and (max-width: 800px){
     #hero{height: 35vh;background-image: url("/images/גלריית\ תמונות\ -\ אייפד\ 2.png");}
-    .hero{background-image: url("/images/גלריית\ תמונות\ -\ אייפד\ 2.png"); background-position: 50% 50%; background-size: cover;margin-top: 15%;
+    .hero{background-image: url("/images/גלריית\ תמונות\ -\ אייפד\ 2.png"); background-position: 50% 20%; background-size: cover;margin-top: 10%;
     }
     .column-hover{
       position: relative;
