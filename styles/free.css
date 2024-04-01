@@ -4,7 +4,7 @@
 
 #hero {
   background-size: cover;height: 80vh;
-    background-image: url("/images/editeddonut2.png")
+    background-image: url("/images/donutrecipe.png")
   ;background-position: 80% 20%;}
   #hero h1{padding-right: 5%;font-size: 90px; padding-top: 5%;color: #f4aaaa;padding-top: 20%;}
 .body{
@@ -39,6 +39,9 @@
   }
   #hero{
     background-size: cover;height: 35vh;;
+  }
+  .hero{
+    background-image: url("/images/donutrecipemobile.png")
   }
 
       }
