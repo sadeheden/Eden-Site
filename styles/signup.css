@@ -6,7 +6,7 @@
 #hero {
     grid-area: hero;
     height: 80vh;
-    background-position: 60%  20%;;
+    background-position: 60%  60%;;
     background-image: url("/images/pinkartic.jpg");
     background-size: cover;
 }
