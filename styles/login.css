@@ -6,7 +6,7 @@
 .a{
   text-align: left;
  }
-
+#hero{height: 95vh;background-image: url(/images/Design-adress.gif);width: 100%;background-position: 40% 10%;}
 
 .grid-container{
   display: grid;
@@ -30,7 +30,7 @@ input[type=text], select, textarea {
   resize: vertical;
   
 }
-#content{margin-top: 25%;}
+#content{margin-top: 5%;}
 input[type=submit] {
   background-color:rgb(243, 237, 237); 
 ;
@@ -54,8 +54,6 @@ input[type=submit]:hover {
   padding: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
-#hero{margin-top: 5%; grid-area: hero;
-  height: 62vh;}
 
 @media only screen and (max-width: 800px){
   .menu-button-container {
