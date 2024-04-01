@@ -12,7 +12,7 @@
     background-position: 80% 20%;
     background-repeat: no-repeat;
 }
- .grid-container p{margin-right: 65%;font-size: 140%;margin-left:5%;padding-top: 10%;padding-bottom: 20%;}
+ .grid-container p{margin-right: 65%;font-size: 140%;margin-left:5%;padding-top: 8%;padding-bottom: 20%;}
 
 @media only screen and (max-width: 800px){
   .menu-button-container {
