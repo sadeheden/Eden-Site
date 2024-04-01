@@ -8,7 +8,7 @@
 width: 100%;
 height: 85vh;
 background-repeat: no-repeat;
-background-position: 93% 20%;  
+background-position: 100% 90%;  
 background-size: cover;
    
 }
@@ -17,7 +17,6 @@ background-size: cover;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 3%;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
   }
   
@@ -73,13 +72,13 @@ background-size: cover;
     width: 100%;
     padding: 2%;
     background: rgb(154, 154, 154); 
-    background: rgb(75, 74, 74, 0.7); 
+    background: rgba(138, 131, 131, 0.7); 
   }
   .body{
     background-color: rgb(243, 237, 237);
   }
   .box {
-    margin-top:10%;
+    margin-top:5%;
     background: rgba(255,255,255,0.2);
     padding: 15px;
     border: 2px solid #fff;
@@ -90,10 +89,11 @@ background-size: cover;
   
   .button {
     font-size: 1em;
+    margin-right: 5%;
     padding: 20px;
     color: black;
     border: 4px solid pink;
-    border-radius: 20px/50px;
+    border-radius: 60px/50px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -161,7 +161,7 @@ background-size: cover;
   
   @media only screen and (max-width: 700px){
     #hero{
-      background-position: 100% 20%; 
+      background-position: 98% 20%; 
       }
      
       .grid {
@@ -178,9 +178,9 @@ background-size: cover;
 
     @media only screen and (max-width: 600px){
     #hero{
-    background-image: url(/images/Design\ 3.png);
+  
       background-size: cover;height: 100%;;
-      background-position: 50% 40%;
+      background-position: 95% 40%;
     }
   
     .content{

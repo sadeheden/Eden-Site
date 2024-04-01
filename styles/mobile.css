@@ -17,6 +17,7 @@
         'content content content content'
         'footer footer footer footer';
 }
+#hero{margin-top: 5%;}
 
     /*new header*/
     .top-nav {
@@ -29,11 +30,14 @@
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         color: #000000;
         height: 90px;
-        padding: 1em;
+        padding: 0.5em;
         text-align: left;
+        position: fixed; 
+        top: 0;
+        z-index: 99;
       }
       #logo{width: 18%;}
- 
+
       .menu {
         display: -webkit-box;
         flex-direction: row;
@@ -48,7 +52,7 @@
         overflow: hidden;
       }
       
-      
+   
       .menu-button-container {
         display: none;
         height: 100%;
@@ -171,4 +175,4 @@
         text-align: center;
      
     }
-    .footer img{width: 3%; border-radius: 30%;}
+    .footer img{width: 3%;}
