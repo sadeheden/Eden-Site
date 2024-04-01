@@ -50,7 +50,7 @@ justify-content: center;
     width: 80%;
     height: 90%;
     transition: width 1s, height 1s;
-    margin-left: 20%;
+    margin-left: 10%;
     border-radius: 10%;
     font-size:120%;
     
@@ -110,7 +110,7 @@ justify-content: center;
   }
  
   @media (max-width: 400px) {
-    #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;
+    #hero{background-image: url(/images/Design\ 4\ mobile\ pink.gif); background-size: cover;
     background-position: 60% 20%;}
     .menu-button-container {
       display: inline;}
@@ -124,8 +124,8 @@ justify-content: center;
       background-size: cover;height: 35vh;;}}
 
       @media (max-width: 800px) {
-        #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;height: 85vh;
-        background-position: 60% 20%;}
+        #hero{ background-size: cover;height: 85vh;
+        background-position: 0% 80%;}
         .menu-button-container {
           display: inline;}
           .col{width: auto;}
@@ -135,4 +135,6 @@ justify-content: center;
         .button{ margin-left: 15%;}
        
     }
-      
+    @media (max-width: 600px) {
+      #hero{background-image: url(/images/Design\ 4\ mobile\ pink.gif); background-size: cover;height: 85vh;
+      background-position: 60% 80%;}}
