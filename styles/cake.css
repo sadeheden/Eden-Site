@@ -22,15 +22,7 @@
     color: pink;
     text-align: center; background-size: cover;
   }
-  .arrow-down1 {
-    border:palevioletred solid;
-    border-width: 0 4px 4px 0;
-    display: inline-block;
-    padding: 10px;
-    margin: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
+  
   .row{
     display: -ms-flexbox;
     display: flex;
@@ -95,8 +87,9 @@
     backface-visibility:hidden;
   }
   /* גודל טבלט */
-  @media only screen and (max-width: 600px){
-    .hero h1{font-size: 81%;
+  @media only screen and (max-width: 800px){
+    #hero{height: 35vh;background-image: url("/images/גלריית\ תמונות\ -\ אייפד\ 2.png");}
+    .hero{background-image: url("/images/גלריית\ תמונות\ -\ אייפד\ 2.png"); background-position: 50% 50%; background-size: cover;margin-top: 15%;
     }
     .column-hover{
       position: relative;
