@@ -9,17 +9,18 @@
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
-    display: block
+    display: block;
+  
 }
   .hero{
     background-image: url("/images/perfectsweetbox.png");
    height: 83vh;
    background-repeat: no-repeat;
    width: 100%;
-   background-position: 50% 25%;
+   background-position: 50% 20%;
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
-    text-align: center; background-size:cover;
+    text-align: center; background-size: cover;
   }
   
   .row{
@@ -37,13 +38,15 @@
     padding: 0 40px;
     position: relative;
   }
-  .column img{
+  .column img{ 
     margin-top: 40%;
     vertical-align: middle;
     width: 100%;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+   
   }  
+  .img{overflow:content-box;}
   .column-hover{
     position: relative;
     width: 100%;
@@ -83,16 +86,10 @@
     transition: .5s ease;
     backface-visibility:hidden;
   }
-  /* גודל לאייפד */
+  /* גודל טבלט */
   @media only screen and (max-width: 800px){
-    .menu-button-container {
-      display: inline;
+    .hero{background-image: url("/images/perfectweetboxmobilelast.png"); background-position: 50% 20%; background-size: cover;margin-top: 10%;
     }
-    .hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
-     background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
-    }
-    .col{width: auto;}
-    .footer img{width: 10%;}
     .column-hover{
       position: relative;
     }
@@ -104,30 +101,32 @@
     .text{font-size: 100%;}
     .column-hover {width: 400%;}
     .row{  display:contents;}
+    .menu-button-container {
+      display: inline;
+    }
+    .footer img{width: 10%;}
+  .img{  margin-left: auto;
+    margin-right: auto;}
+    .col{width: auto;}
   }
-  /* גודל למובייל */
+  /* גודל טלפון */
   @media only screen and (max-width: 400px){
-    hero{height: 35vh;background-image: url("/images/perfectweetboxmobilelast.png");
-      background-position: 50% 20%;margin-top: 10%;margin-bottom:-50%;
-     }
     .hero h1{font-size: 45%;
     }
+    .hero{background-position: 40% 0%;width:auto;background-image: url("/images/perfectsweetboxmobile.png");}
+    .menu{display: contents;}
     .column-hover{
       position: relative;
     }
-    #hero{height: 35vh;background-image: url("/images/perfectsweetboxmobile.png");}
-    .menu{display: contents;}
     .text-middle text {
      margin: 4%;}
-    .column{margin: 25%;
-      padding-right: 10%;
+    .column{margin: 20%;
+      padding: 10%;
   }
   .footer img{width: 10%;}
     .text{font-size: 70%;}
   
-    .row{ display:contents;}
-   
-
+    .row{  display:contents;}
     }  
- 
-
+  
+  
