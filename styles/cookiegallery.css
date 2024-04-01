@@ -19,7 +19,7 @@
    background-position: 50% 25%;
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
-    text-align: center;
+    text-align: center; background-size: cover;
   }
   .arrow-down1 {
     border:palevioletred solid;
