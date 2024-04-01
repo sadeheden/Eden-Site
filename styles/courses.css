@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     background-position: 3% 20%;  
     background-size: cover;
-    background-image: url("/images/Design\ 3.gif");
+    background-image: url(/images/pink\ course.gif);
 
    
 }
@@ -22,6 +22,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
     width: 100%;
+    background-attachment: fixed; 
+background-size: 100% 100%;    
+height: 100%;   
+
+ -webkit-align-items: center;    
+
+align-items: center;    
+
+justify-content: center;
 
      
   }
@@ -37,13 +46,14 @@
 .grid-item1 {
     padding: 8%;
     text-align: center;
-    background-color: rgb(236, 225, 225);
-    width: 90%;
-    height: 110%;
+    background-color: rgb(218, 214, 214);
+    width: 80%;
+    height: 90%;
     transition: width 1s, height 1s;
     margin-left: 10%;
     border-radius: 10%;
     font-size:120%;
+    
     
 }
 
@@ -73,7 +83,6 @@
    .box {
     bottom: 0;
     color: #6e6b6b;
-    margin-top: 5%;
     padding: 8%;
     padding-left: 25%;
    
@@ -86,12 +95,12 @@
   }
   /* button for the lesson */
   .button {
-    font-size: 1.5em;
+    font-size: 6.5em;
     padding: 20px;
-    margin-left: 25%;
+    margin-left: 28%;
     color: black;
     border: 4px solid rgb(238, 158, 171);
-    border-radius: 20px/50px;
+    border-radius: 60px/50px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -101,30 +110,31 @@
   }
  
   @media (max-width: 400px) {
-    #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;
+    #hero{background-image: url(/images/Design\ 4\ mobile\ pink.gif); background-size: cover;
     background-position: 60% 20%;}
     .menu-button-container {
-      display: flex;}
+      display: inline;}
       .col{width: auto;}
-    
+      .menu{display: contents;}
       .footer img{width: 10%;}
     .grid-container{display: inherit;padding: 2%}
-    .button{margin:auto}
+    .button{ margin-left: 10%;}
     .grid-item1 {font-size: 130%;margin-bottom: 3%;margin-left: 5%; };
     #hero{
       background-size: cover;height: 35vh;;}}
 
       @media (max-width: 800px) {
-        #hero{background-image: url(/images/mobile\ course.gif); background-size: cover;
-        background-position: 60% 20%;}
+        #hero{ background-size: cover;height: 85vh;
+        background-position: 0% 80%;}
         .menu-button-container {
-          display: flex;}
+          display: inline;}
           .col{width: auto;}
-        
+          .menu{display: contents;}
           .footer img{width: 10%;}
         .grid-container{display: inherit;padding: 8%}
-        .button{margin:auto}
+        .button{ margin-left: 15%;}
        
-        #hero{
-          background-size: cover;height: 35vh;;}}
-      
+    }
+    @media (max-width: 600px) {
+      #hero{background-image: url(/images/Design\ 4\ mobile\ pink.gif); background-size: cover;height: 85vh;
+      background-position: 60% 80%;}}

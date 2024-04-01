@@ -12,22 +12,24 @@
     background-position: 80% 20%;
     background-repeat: no-repeat;
 }
- .grid-container p{margin-right: 65%;font-size: 140%;margin-left:5%;padding-top: 2%;}
+ .grid-container p{margin-right: 65%;font-size: 140%;margin-left:5%;padding-top: 10%;padding-bottom: 20%;}
 
 @media only screen and (max-width: 800px){
   .menu-button-container {
-    display: flex;
+    display: inline;
   }
+  .menu{display: contents;}
   #hero{
-    background-size: cover;height: 35vh;;
+    background-size: cover;height: 55vh;;
 
   }
-  .col{width: auto;} #content{
-    background-position: 70% -60%; 
+  .col{width: auto;} 
+  #content{
+    background-position: 70% -90%; 
 
   }
   .footer img{width: 10%;}
-  .grid-container p{margin: auto; font-size: medium; padding: 15%;color: rgb(0, 0, 0);font-weight: bold;}
+  .grid-container p{margin: auto; font-size: medium; padding: 15%;color: rgb(0, 0, 0);padding-top:20%;}
   .logo{width:20%;margin-left: 35%;}}
 
   

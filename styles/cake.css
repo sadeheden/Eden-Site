@@ -9,7 +9,8 @@
     overflow: auto;  
     word-wrap: break-word;
     overflow: auto;
-    display: block
+    display: block;
+  
 }
   .hero{
     font-size: 120PX;
@@ -41,7 +42,7 @@
     padding: 0 40px;
     position: relative;
   }
-  .column img{
+  .column img{ 
     margin-top: 40%;
     vertical-align: middle;
     width: 100%;
@@ -49,6 +50,7 @@
     
    
   }  
+  .img{overflow:content-box;}
   .column-hover{
     position: relative;
     width: 100%;
@@ -88,12 +90,13 @@
     transition: .5s ease;
     backface-visibility:hidden;
   }
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 600px){
     .hero h1{font-size: 81%;
     }
     .column-hover{
       position: relative;
     }
+    .menu{display: contents;}
     .text-middle text {
      margin: 4%;}
     .column{width:29%;
@@ -102,24 +105,23 @@
     .column-hover {width: 400%;}
     .row{  display:contents;}
     .menu-button-container {
-      display: flex;
+      display: inline;
     }
     .footer img{width: 10%;}
-    #hero{
-      background-size: cover;height: 35vh;;
-  
-    }
+  .img{  margin-left: auto;
+    margin-right: auto;}
     .col{width: auto;}
   }
   @media only screen and (max-width: 400px){
     .hero h1{font-size: 45%;
     }
+    .menu{display: contents;}
     .column-hover{
       position: relative;
     }
     .text-middle text {
      margin: 4%;}
-    .column{margin: 24%;
+    .column{margin: 20%;
       padding: 10%;
   }
   .footer img{width: 10%;}
