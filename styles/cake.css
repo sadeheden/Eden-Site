@@ -114,7 +114,7 @@
   @media only screen and (max-width: 400px){
     .hero h1{font-size: 45%;
     }
-    #hero{background-position: 3% 2%;width:auto;}
+    #hero{background-position: 3% 2%;width:auto;background-image: url("/images/perfectcakemobile.png");}
     .menu{display: contents;}
     .column-hover{
       position: relative;
