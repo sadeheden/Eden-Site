@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
    
     background-size: cover;
-    background-image: url(/images/pink\ course.gif);
+    background-image: url(/images/bakenewwdd.png);
 
    
 }
@@ -124,7 +124,7 @@ justify-content: center;
       background-size: cover;height: 35vh;;}}
 
       @media (max-width: 800px) {
-        #hero{ background-size: cover;height: 85vh;
+        #hero{ background-size: cover;height: 95vh;
         background-position: 0% 80%;}
         .menu-button-container {
           display: inline;}
