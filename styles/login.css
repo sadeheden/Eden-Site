@@ -6,7 +6,7 @@
 .a{
   text-align: left;
  }
-#hero{height: 85vh;background-image: url(/images/loginnnew.jpeg);width: 100%;background-position: 40% 55%;}
+#hero{height: 85vh;background-image: url(/images/keep\ in\ toucj.png);width: 100%;background-position: 40% 55%;}
 
 .grid-container{
   display: grid;
@@ -59,7 +59,7 @@ input[type=submit]:hover {
   .menu-button-container {
     display: inline;
   }
-
+#hero{background-position: 30% 55%;}
   .container{
   width:auto;margin: 10%;
    }
@@ -76,6 +76,9 @@ input[type=submit]:hover {
   margin: 10%;
   width:auto;
   
+   }
+   #hero{background-position: 30% 55%;
+ width:fit-content;
    }
    .menu{display: contents;}
    .footer img{width: 10%;}
