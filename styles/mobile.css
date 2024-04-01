@@ -105,7 +105,7 @@
       
       @media (max-width: 800px) {
         #hero{
-            background-size: cover;}
+            background-size: cover;padding-top: 10%;}
         .col{width: auto;}
         .grid-container{display: inherit;padding: 8%}
         .button{margin-left:15%;}
