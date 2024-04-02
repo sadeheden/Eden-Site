@@ -1,0 +1,33 @@
+@import url('/styles/vars.css');
+@import url('/styles/reset.css');
+@import url('/styles/mobile.css');
+
+
+.body{
+    text-align: center;
+    height: 94vh;
+    background-color: rgb(243, 237, 237);
+    scrollbar-color: dark;
+    overflow: auto;  
+    word-wrap: break-word;
+    overflow: auto;
+    display: block;
+    font-size: 80%;
+}
+
+.body article{padding-right: 10%;
+  background-color:rgb(243, 237, 237);font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20%;}
+
+  .body article{margin-top: 10%;}
+  @media (max-width: 800px) {
+    .menu-button-container {
+      display: inline;
+    }
+    .menu{display: contents;}
+    .footer img{width: 10%;}
+    #hero{
+      background-size: cover;height: 35vh;;
+  
+    }}

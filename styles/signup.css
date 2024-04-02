@@ -78,15 +78,19 @@ input:hover,
 }
 
 /* style the submit button */
-input[type=submit] {
-  background-color: #0a0f0d;
-  color: rgb(255, 255, 255);
+.button {
+  font-size: 1em;
+  margin-right: 5%;
+  padding: 5px;
+  margin: 5%;
+  color: rgb(214, 150, 150);
+  text-decoration: none;
   cursor: pointer;
-  margin-top: 10%;
+  transition: all 0.3s ease-out;
+  
 }
-
-input[type=submit]:hover {
-  background-color: #010201;
+.button:hover {
+  background: pink;
 }
 
 /* Two-column layout */
