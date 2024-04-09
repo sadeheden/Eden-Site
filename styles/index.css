@@ -4,10 +4,10 @@
 
 #hero {
     grid-area: hero;
-width: 100%;background-image: url("/images/HERO2.png");
+width: 100%;background-image: url("/images/Designer\ spacehero.png");
 height: 80vh;
 background-repeat: no-repeat;
-background-position: 100% 90%;  
+background-position: 80% 10%;  
 background-size: cover;
    
 }
