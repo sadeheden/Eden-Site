@@ -36,14 +36,15 @@
         top: 0;
         z-index: 99;
       }
-      #logo{width: 18%;margin-left: 4%;margin-top: 1%;}
+      #logo{width: 16%;margin-left: 42%;margin-top: 0.5%;}
 
       .menu {
         display: -webkit-box;
         flex-direction: row;
         list-style-type: none;
- padding-right: 3%;
-        font-size: 120%;
+ padding-right: 25%;
+        font-size: 110%;
+        margin: 1%;
     
       }
       
