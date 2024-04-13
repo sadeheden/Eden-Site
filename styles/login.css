@@ -6,7 +6,7 @@
 .a{
   text-align: left;
  }
-#hero{height: 80vh;background-image: url(/images/77.png); height: 80vh;width: 100%;background-position: 50% 60%; background-size: cover;}
+#hero{height: 80vh;background-image: url(/images/77.png); height: 80vh;width: 100%;background-position: 50% 30%; background-size: cover;}
 
 .grid-container{
   display: grid;
