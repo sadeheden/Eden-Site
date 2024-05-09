@@ -10,6 +10,12 @@
     background-image: url("/images/pinkartic.jpg");
     background-size: cover;
 }
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
   /* reviews */
   .grid-item1:hover {
