@@ -5,9 +5,9 @@
 
 #hero {
     grid-area: hero;
-    height: 80vh;
+    height: 85vh;
     background-position: 60%  90%;;
-    background-image: url("/images/login.png");
+    background-image: url("/images/pinkartic.jpg");
     background-size: cover;
 }
 

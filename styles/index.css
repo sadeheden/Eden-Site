@@ -4,11 +4,13 @@
 
 #hero {
     grid-area: hero;
-width: 100%;background-image: url("/images/Designer\ spacehero.png");
-height: 80vh;
+width: 100%;background-image: url("/images/image.png");
+height: 85vh;
 background-repeat: no-repeat;
 background-position: 80% 10%;  
 background-size: cover;
+
+
    
 }
 
@@ -17,6 +19,7 @@ background-size: cover;
     grid-template-columns: auto auto auto auto;
     padding: 3%;
     font-size: 60%;
+    text-align: center;
   }
   
 .grid-item {

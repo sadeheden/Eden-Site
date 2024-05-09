@@ -7,12 +7,13 @@
 }
 #content {
     background-color: rgb(243, 237, 237);
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/images/Cute\ and\ Simple\ Design.png); 
+
+    background-image: url(/images/Cute\ and\ Simple\ Design.jpeg); 
     background-position: 100% 25%;
+    height: 95vh;
     background-repeat: no-repeat;
 }
- .grid-container p{margin-right: 70%;font-size: 95%;margin-left:5%;padding-top: 25%;padding-bottom: 20%;;}
+ .grid-container p{margin-right: 72%;font-size: 95%;margin-left:5%;}
 
 @media only screen and (max-width: 800px){
   .menu-button-container {
